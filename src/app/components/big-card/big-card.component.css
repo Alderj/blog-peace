@@ -1,17 +1,17 @@
 .bigcard__container {
-    border: 1px solid red;
+  /* border: 1px solid red;*/
 
-    width: 400px;
-    height: 400px;
+    width: 640px;
+    height: 530px;
     display: flex;
 
     flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 120px;
 }
 
-.big-card__photo>img {
+.big-card__photo > img {
     width: 100%;
+    
 }
 
 .big-card__title>h2 {
