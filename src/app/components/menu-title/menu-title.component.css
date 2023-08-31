@@ -1,0 +1,17 @@
+.menu__title__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__title__container > hr{
+    width: 100%;
+    margin: 20px 0;
+    
+}
+
+h3{
+    color: #fff;
+    font-size: 48px;
+}
