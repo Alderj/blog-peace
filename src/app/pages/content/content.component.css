@@ -13,12 +13,25 @@
 
 .content__cover{
     border: 1px solid grey;
+    margin-bottom: 20px;
 }
 
 .content__cover > img{
-    width: 500px; 
+    width: 640px; 
+}
+
+.content__title > h2{
+    margin-top: 20px;
+}
+
+.content__description {
+   margin-top: 15px;
 }
 
 .content__description > p{
-    color: grey
+    color: grey;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
 }
