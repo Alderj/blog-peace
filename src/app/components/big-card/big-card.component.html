@@ -5,7 +5,7 @@
         src="{{ photoCover }}" alt="Imagem plaholder">
     </div>
 
-    <a routerLink="content">
+    <a [routerLink]="['content', Id]">
 
         <div class="big-card__title">
             <h2>{{ cardTitle }}</h2>
