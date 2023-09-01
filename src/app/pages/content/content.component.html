@@ -1,8 +1,7 @@
 <div class="container__content">
 
     <div class="content__cover">
-        <img src="https://s2-g1.glbimg.com/jfVlBdekH1lJIMU7HEK12dBVNms=/0x0:804x479/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/R/F/Vt2xxQSfyFPIk6RCwMdw/captura-de-tela-2023-08-25-104831.png"
-            alt="">
+        <img src="{{ photoContent }}" alt="">
     </div>
 
     <a routerLink="/">
@@ -10,31 +9,10 @@
 
 
             <div class="content__title">
-                <h2>Meu artigo</h2>
+                <h2>{{contentTitle}}</h2>
             </div>
 
             <div class="content__description">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iure excepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iure excepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iure excepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iureexcepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iure excepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, architecto necessitatibus debitis
-                    nesciunt obcaecati, ad voluptates accusamus quidem corporis iure excepturi, laborum molestiae
-                    suscipit? Magni repellat quidem iusto suscipit voluptatem.< Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Expedita, architecto necessitatibus debitis nesciunt obcaecati, ad voluptates
-                        accusamus quidem corporis iure excepturi, laborum molestiae suscipit? Magni repellat quidem
-                        iusto suscipit voluptatem.</p>
+                <p>{{ contentDescription }}  </p>
             </div>
 </div>
