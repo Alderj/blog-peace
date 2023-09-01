@@ -6,7 +6,7 @@ export const dataFake = [
 
         "title":"MEI deve emitir NFS-e apenas pelo portal do Governo Federal",
 
-        "description": "A partir de 1º de setembro de 2023, todo MEI (Micro Empreendedor Individual), deverá realizar todas as emissões das suas Notas Fiscais de Serviço Eletrônicas - NFS-e, através do portal do Governo Federal. Segue o link da RESOLUÇÃO CGSN Nº 169, DE 27 DE JULHO DE 2022  http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=125242"
+        "description": "A partir de 1º de setembro de 2023, todo MEI (Micro Empreendedor Individual), deverá realizar todas as emissões das suas Notas Fiscais de Serviço Eletrônicas - NFS-e, através do portal do Governo Federal conforme a RESOLUÇÃO CGSN Nº 169, DE 27 DE JULHO DE 2022. Conforme aviso no portal de Prefeitura Municipal de Boa Vista. A emissão de NFS-e no portal SAATRI não será mais permitido."
     },
     {
         "id": "2",
