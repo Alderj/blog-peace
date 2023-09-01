@@ -1,31 +1,25 @@
 .bigcard__container {
   /*border: 1px solid red;*/
-
     width: 640px;
     height: 565px;
     display: flex;
-
     flex-direction: column;
     margin-right: 120px;
 }
-
 .big-card__photo > img {
     width: 100%;   
 }
-
-.big-card__title>h2 {
+.big-card__title > h2 {
     font-size: 20px;
     margin-top: 15px;
 }
-
 .big-card__description >p {
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 18px;    
     color: #fff;
+    color: #000;
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
 .big-card__description > span{
     background-color: #fff;
     color: #000;
